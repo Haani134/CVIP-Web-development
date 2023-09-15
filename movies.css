@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+.originals{
+    
+    padding-left: 0px;
+
+}
+.originals h2{
+    margin-top: 60px;
+}
+.originals .no-titles{
+        font-size: 20px;
+        padding-left: 10px;
+        line-height: 1px;
+        font-weight: 5px;
+        margin-bottom: 19px;
+    color: antiquewhite;
+    }
+    .originals .no{
+        display: flex;
+        height: 50vh;
+        padding-top: 2px;
+        margin-left: 0px;
+        margin-bottom: -50px;
+        overflow-y: hidden;   
+       
+    }
+    
+    .originals .no img:hover{
+        transform: scale(1.1);
+        transition: 0.4s ease-in-out;
+        transition-delay: 0.1s;
+    }
+    html{
+        overflow:scroll;
+        overflow-x:hidden;
+    }
+    ::-webkit-scrollbar{
+        width: 2px;
+        background: transparent;
+    }
