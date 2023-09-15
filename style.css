@@ -145,16 +145,18 @@ body{
   padding-left: 100px;
   
 }
-.desc-1 h1{
+.style-card h1{
   font-size: 3rem;
   padding: 1rem;
   padding-left: 0;
 
 }
-.desc-1,.desc-2 p{
+
+.style-card p{
   font-size: 1.7rem;
   line-height: 2rem;
 }
+
 .card-1 video{
   position: relative;
   height: 78%;
@@ -168,7 +170,7 @@ body{
   grid-column: 2/2;
   grid-row: 1/2;
 }
-.card-2{
+.card-2,.card-4{
   position: relative;
   display: inline-grid;
   justify-content: center;
@@ -182,6 +184,32 @@ body{
   padding: 1rem;
   padding-left: 0;
 
+}
+.card-3{
+  position: relative;
+  display: inline-grid;
+  grid-template-columns: 50% 40%;
+  text-align: left;
+  align-items: center;
+  padding: 25px 100px 50px;
+}
+.card-3 img{
+  grid-column: 2/2;
+  grid-row: 1/2;
+}
+.card-3 video{
+  position: relative;
+  top: -75px;
+  right: -8%;
+  height: 78%;
+  width: 80%;
+  grid-column: 2/2;
+  grid-row: 1/2;
+  z-index: -15;
+  margin-left: 20%;
+}
+.desc-4 p{
+  font-size: 1.4rem;
 }
 
 
