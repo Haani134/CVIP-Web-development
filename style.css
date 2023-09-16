@@ -92,16 +92,16 @@ body{
     font-size: 1.6rem;
     text-align: center;
   }
-  .container .title .content form h3{
-    font-size: 1rem;
-    margin: 18px 0;
+  .container .title .content p{
+    font-size: 1.1rem;
+    margin: 18px ;
     text-align: center;
   }
-  .container .title .content form .email{
+  .container .title  .email{
     width: 1000px;
-    margin: auto;
   }
-  .container .title .content form .email input{
+  
+  .container .title .email input{
     height: 60px;
     width: 450px;
     margin: auto;
@@ -109,7 +109,7 @@ body{
     font-size: 20px;
     outline: none;
   }
-  .container .title .content form .email button{
+  .container .title .email button{
     margin: auto;
     height: 60px;
     width: 180px;
@@ -125,10 +125,10 @@ body{
     border: none;
     margin-left: -5px;
   }
-  .container .title .content form .email button:hover{
+  .container .title .email button:hover{
     background-color: #f40612;
   }
-  .container .title .content form .email button a{
+  .container .title .email button a{
     text-decoration: none;
     color: white;
   }
